@@ -24,14 +24,15 @@
 ## Screenshots
 
 **Index Page**  
-<img src="https://storage.googleapis.com/kalfoximg/github-media/carspotterhub/csh-ss-01.gif" alt="Kalfox Logo" width="450" /><br>
-<img src="https://storage.googleapis.com/kalfoximg/github-media/carspotterhub/csh-ss-02.png" alt="Kalfox Logo" width="450" />
+<img src="https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/Screenshot-1.gif" alt="Kalfox Logo" width="450" /><br>
+
+<img src="https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/Screenshot-2.png" alt="Kalfox Logo" width="450" />
 
 **Car Details Page**  
-<img src="https://storage.googleapis.com/kalfoximg/github-media/carspotterhub/csh-ss-03.png" alt="Kalfox Logo" width="450" />
+<img src="https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/Screenshot-3.png" alt="Kalfox Logo" width="450" />
 
 **Admin Panel**  
-<img src="https://storage.googleapis.com/kalfoximg/github-media/carspotterhub/csh-ss-04.png" alt="Kalfox Logo" width="450" />
+<img src="https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/Screenshot-4.png" alt="Kalfox Logo" width="450" />
 
 ---
 

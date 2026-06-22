@@ -72,8 +72,8 @@ $specsData = $conn->query('SELECT s.*, c.name as car_name FROM specifications s 
     <?php require_once __DIR__ . '/../includes/header.php';?>
     <title>Car Database Admin</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/styles_5.css">
-    <link rel="icon" href="images/logo-white.png" type="image/png">
+    <link rel="stylesheet" href="../assets/css/styles_5.css">
+    <link rel="icon" href="../assets/img/favicon.png" type="image/png">
 </head>
 
 <body>
@@ -93,10 +93,10 @@ $specsData = $conn->query('SELECT s.*, c.name as car_name FROM specifications s 
                 <i class="fas fa-plus"></i> Add Co-Admin
             </button>
             <?php endif; ?>
-            <a href="index.php" class="nav-btn btn-secondary">
+            <a href="../index.php" class="nav-btn btn-secondary">
                 <i class="fas fa-home"></i> Main Page
             </a>
-            <a href="admin/admin_panel.php?logout" class="nav-btn btn-danger">
+            <a href="../admin/admin_panel.php?logout" class="nav-btn btn-danger">
                 <i class="fas fa-sign-out-alt"></i> Logout
             </a>
         </div>
