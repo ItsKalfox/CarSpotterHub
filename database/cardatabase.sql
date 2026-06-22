@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 19, 2025 at 05:08 PM
+-- Generation Time: Jun 22, 2026 at 02:30 PM
 -- Server version: 10.4.32-MariaDB
--- PHP Version: 8.2.12
+-- PHP Version: 8.0.30
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -60,25 +60,25 @@ CREATE TABLE `carbrand` (
 --
 
 INSERT INTO `carbrand` (`brand_id`, `brand_name`, `logo_url`) VALUES
-(1, 'Toyota', 'https://storage.googleapis.com/kalfoximg/Brand%20Logos/toyota-logo.png'),
-(2, 'Honda', 'https://storage.googleapis.com/kalfoximg/Brand%20Logos/honda-logo.png'),
-(3, 'Ford', 'https://storage.googleapis.com/kalfoximg/Brand%20Logos/ford-logo.png'),
-(4, 'BMW', 'https://storage.googleapis.com/kalfoximg/Brand%20Logos/bmw-logo.png'),
-(5, 'Mercedes-Benz', 'https://storage.googleapis.com/kalfoximg/Brand%20Logos/mercedes-benz-logo.png'),
-(6, 'Tesla', 'https://storage.googleapis.com/kalfoximg/Brand%20Logos/tesla-logo.png'),
-(7, 'Audi', 'https://storage.googleapis.com/kalfoximg/Brand%20Logos/audi-logo.png'),
-(8, 'Chevrolet', 'https://storage.googleapis.com/kalfoximg/Brand%20Logos/chevrolet-logo.png'),
-(9, 'Nissan', 'https://storage.googleapis.com/kalfoximg/Brand%20Logos/nissan-logo.png'),
-(10, 'Hyundai', 'https://storage.googleapis.com/kalfoximg/Brand%20Logos/hyundai-logo.png'),
-(11, 'Kia', 'https://storage.googleapis.com/kalfoximg/Brand%20Logos/kia-logo.png'),
-(12, 'Volkswagen', 'https://storage.googleapis.com/kalfoximg/Brand%20Logos/volkswagen-logo.png'),
-(13, 'Ferrari', 'https://storage.googleapis.com/kalfoximg/Brand%20Logos/ferrari-logo.png'),
-(14, 'Lamborghini', 'https://storage.googleapis.com/kalfoximg/Brand%20Logos/lanborghini-logo.png'),
-(15, 'Porsche', 'https://storage.googleapis.com/kalfoximg/Brand%20Logos/porsche-logo.png'),
-(16, 'Bugatti', 'https://storage.googleapis.com/kalfoximg/Brand%20Logos/bugatti-logo.png'),
-(17, 'McLaren', 'https://storage.googleapis.com/kalfoximg/Brand%20Logos/mclaren-logo.png'),
-(18, 'Aston Martin', 'https://storage.googleapis.com/kalfoximg/Brand%20Logos/aston-martin-logo.png'),
-(19, 'W Motors', 'https://storage.googleapis.com/kalfoximg/Brand%20Logos/w-motors-logo.png');
+(1, 'Toyota', 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/Brand%20Logos/toyota-logo.png'),
+(2, 'Honda', 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/Brand%20Logos/honda-logo.png'),
+(3, 'Ford', 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/Brand%20Logos/ford-logo.png'),
+(4, 'BMW', 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/Brand%20Logos/bmw-logo.png'),
+(5, 'Mercedes-Benz', 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/Brand%20Logos/mercedes-benz-logo.png'),
+(6, 'Tesla', 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/Brand%20Logos/tesla-logo.png'),
+(7, 'Audi', 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/Brand%20Logos/audi-logo.png'),
+(8, 'Chevrolet', 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/Brand%20Logos/chevrolet-logo.png'),
+(9, 'Nissan', 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/Brand%20Logos/nissan-logo.png'),
+(10, 'Hyundai', 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/Brand%20Logos/hyundai-logo.png'),
+(11, 'Kia', 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/Brand%20Logos/kia-logo.png'),
+(12, 'Volkswagen', 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/Brand%20Logos/volkswagen-logo.png'),
+(13, 'Ferrari', 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/Brand%20Logos/ferrari-logo.png'),
+(14, 'Lamborghini', 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/Brand%20Logos/lamborghini-logo.png'),
+(15, 'Porsche', 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/Brand%20Logos/porsche-logo.png'),
+(16, 'Bugatti', 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/Brand%20Logos/bugatti-logo.png'),
+(17, 'McLaren', 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/Brand%20Logos/mclaren-logo.png'),
+(18, 'Aston Martin', 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/Brand%20Logos/aston-martin-logo.png'),
+(19, 'W Motors', 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/Brand%20Logos/w-motors-logo.png');
 
 -- --------------------------------------------------------
 
@@ -128,46 +128,46 @@ CREATE TABLE `images` (
 --
 
 INSERT INTO `images` (`id`, `car_id`, `image_url`) VALUES
-(1, 1, 'https://storage.googleapis.com/kalfoximg/CarImg/ID-1/1-1.jpg'),
-(2, 1, 'https://storage.googleapis.com/kalfoximg/CarImg/ID-1/1-2.jpg'),
-(3, 1, 'https://storage.googleapis.com/kalfoximg/CarImg/ID-1/1-3.jpg'),
-(4, 1, 'https://storage.googleapis.com/kalfoximg/CarImg/ID-1/1-4.jpg'),
-(5, 1, 'https://storage.googleapis.com/kalfoximg/CarImg/ID-1/1-5.jpg'),
-(6, 2, 'https://storage.googleapis.com/kalfoximg/CarImg/ID-2/2-1.jpg'),
-(7, 2, 'https://storage.googleapis.com/kalfoximg/CarImg/ID-2/2-2.jpg'),
-(8, 2, 'https://storage.googleapis.com/kalfoximg/CarImg/ID-2/2-3.jpg'),
-(9, 2, 'https://storage.googleapis.com/kalfoximg/CarImg/ID-2/2-4.jpg'),
-(10, 2, 'https://storage.googleapis.com/kalfoximg/CarImg/ID-2/2-5.jpg'),
-(11, 3, 'https://storage.googleapis.com/kalfoximg/CarImg/ID-3/3-1.jpg'),
-(12, 3, 'https://storage.googleapis.com/kalfoximg/CarImg/ID-3/3-2.jpg'),
-(13, 3, 'https://storage.googleapis.com/kalfoximg/CarImg/ID-3/3-3.jpg'),
-(14, 3, 'https://storage.googleapis.com/kalfoximg/CarImg/ID-3/3-4.jpg'),
-(15, 3, 'https://storage.googleapis.com/kalfoximg/CarImg/ID-3/3-5.jpg'),
-(16, 4, 'https://storage.googleapis.com/kalfoximg/CarImg/ID-4/4-1.jpg'),
-(17, 4, 'https://storage.googleapis.com/kalfoximg/CarImg/ID-4/4-2.jpg'),
-(18, 4, 'https://storage.googleapis.com/kalfoximg/CarImg/ID-4/4-3.jpg'),
-(19, 4, 'https://storage.googleapis.com/kalfoximg/CarImg/ID-4/4-4.jpg'),
-(20, 4, 'https://storage.googleapis.com/kalfoximg/CarImg/ID-4/4-5.jpg'),
-(21, 5, 'https://storage.googleapis.com/kalfoximg/CarImg/ID-5/5-1.jpg'),
-(22, 5, 'https://storage.googleapis.com/kalfoximg/CarImg/ID-5/5-2.jpg'),
-(23, 5, 'https://storage.googleapis.com/kalfoximg/CarImg/ID-5/5-3.jpg'),
-(24, 5, 'https://storage.googleapis.com/kalfoximg/CarImg/ID-5/5-4.jpg'),
-(25, 5, 'https://storage.googleapis.com/kalfoximg/CarImg/ID-5/5-5.jpg'),
-(26, 6, 'https://storage.googleapis.com/kalfoximg/CarImg/ID-6/6-1.jpg'),
-(27, 6, 'https://storage.googleapis.com/kalfoximg/CarImg/ID-6/6-2.jpg'),
-(28, 6, 'https://storage.googleapis.com/kalfoximg/CarImg/ID-6/6-3.jpg'),
-(29, 6, 'https://storage.googleapis.com/kalfoximg/CarImg/ID-6/6-4.jpg'),
-(30, 6, 'https://storage.googleapis.com/kalfoximg/CarImg/ID-6/6-5.jpg'),
-(31, 7, 'https://storage.googleapis.com/kalfoximg/CarImg/ID-7/7-1.jpg'),
-(32, 7, 'https://storage.googleapis.com/kalfoximg/CarImg/ID-7/7-2.jpg'),
-(33, 7, 'https://storage.googleapis.com/kalfoximg/CarImg/ID-7/7-3.jpg'),
-(34, 7, 'https://storage.googleapis.com/kalfoximg/CarImg/ID-7/7-4.jpg'),
-(35, 7, 'https://storage.googleapis.com/kalfoximg/CarImg/ID-7/7-5.jpg'),
-(36, 9, 'https://storage.googleapis.com/kalfoximg/CarImg/ID-8/8-1.png'),
-(37, 9, 'https://storage.googleapis.com/kalfoximg/CarImg/ID-8/8-2.png'),
-(38, 9, 'https://storage.googleapis.com/kalfoximg/CarImg/ID-8/8-3.png'),
-(39, 9, 'https://storage.googleapis.com/kalfoximg/CarImg/ID-8/8-4.png'),
-(40, 9, 'https://storage.googleapis.com/kalfoximg/CarImg/ID-8/8-5.png');
+(1, 1, 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/CarImg/ID-1/1-1.jpg'),
+(2, 1, 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/CarImg/ID-1/1-2.jpg'),
+(3, 1, 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/CarImg/ID-1/1-3.jpg'),
+(4, 1, 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/CarImg/ID-1/1-4.jpg'),
+(5, 1, 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/CarImg/ID-1/1-5.jpg'),
+(6, 2, 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/CarImg/ID-2/2-1.jpg'),
+(7, 2, 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/CarImg/ID-2/2-2.jpg'),
+(8, 2, 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/CarImg/ID-2/2-3.jpg'),
+(9, 2, 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/CarImg/ID-2/2-4.jpg'),
+(10, 2, 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/CarImg/ID-2/2-5.jpg'),
+(11, 3, 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/CarImg/ID-3/3-1.jpg'),
+(12, 3, 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/CarImg/ID-3/3-2.jpg'),
+(13, 3, 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/CarImg/ID-3/3-3.jpg'),
+(14, 3, 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/CarImg/ID-3/3-4.jpg'),
+(15, 3, 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/CarImg/ID-3/3-5.jpg'),
+(16, 4, 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/CarImg/ID-4/4-1.jpg'),
+(17, 4, 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/CarImg/ID-4/4-2.jpg'),
+(18, 4, 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/CarImg/ID-4/4-3.jpg'),
+(19, 4, 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/CarImg/ID-4/4-4.jpg'),
+(20, 4, 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/CarImg/ID-4/4-5.jpg'),
+(21, 5, 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/CarImg/ID-5/5-1.jpg'),
+(22, 5, 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/CarImg/ID-5/5-2.jpg'),
+(23, 5, 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/CarImg/ID-5/5-3.jpg'),
+(24, 5, 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/CarImg/ID-5/5-4.jpg'),
+(25, 5, 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/CarImg/ID-5/5-5.jpg'),
+(26, 6, 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/CarImg/ID-6/6-1.jpg'),
+(27, 6, 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/CarImg/ID-6/6-2.jpg'),
+(28, 6, 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/CarImg/ID-6/6-3.jpg'),
+(29, 6, 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/CarImg/ID-6/6-4.jpg'),
+(30, 6, 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/CarImg/ID-6/6-5.jpg'),
+(31, 7, 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/CarImg/ID-7/7-1.jpg'),
+(32, 7, 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/CarImg/ID-7/7-2.jpg'),
+(33, 7, 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/CarImg/ID-7/7-3.jpg'),
+(34, 7, 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/CarImg/ID-7/7-4.jpg'),
+(35, 7, 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/CarImg/ID-7/7-5.jpg'),
+(36, 9, 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/CarImg/ID-8/8-1.png'),
+(37, 9, 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/CarImg/ID-8/8-2.png'),
+(38, 9, 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/CarImg/ID-8/8-3.png'),
+(39, 9, 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/CarImg/ID-8/8-4.png'),
+(40, 9, 'https://cdn.jsdelivr.net/gh/ItsKalfox/CarSpotterHub@main/assets/img/CarImg/ID-8/8-5.png');
 
 -- --------------------------------------------------------
 
